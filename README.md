@@ -89,7 +89,7 @@ You can also use the ```--force``` flag to update existing entities however, you
 I specified:
 
 - ```--data-annotations``` because I prefer to keep the Fluent API as small as possible. I don't want to search through a million constraints related to other tables when I’m only interested on Supplier or Product in this context
-- ```--use-database-names``` because that its Db 1st. 
+- ```--use-database-names``` because it's database 1st. 
 ```
 dotnet ef dbcontext scaffold "Server=localhost;Database=DbFirstReverseEngineering;Integrated Security=True;MultipleActiveResultSets=True" Microsoft.EntityFrameworkCore.SqlServer --data-annotations --use-database-names
 ```
