@@ -11,7 +11,7 @@ After following the Steps and executing the dotnet cli command ```dotnet ef dbco
 - Product (entity)
 - DbFirstReverseEngineeringContext inherits from DbContext (Fluent API)
 
-And keep in mind all this is configurable. If you are not like me and you don’t want to pluralize table names or not take advantage of data annotations, then you can. Just research the cli flags and chop and change to meet your requirements.
+And keep in mind all this is configurable. Just research the cli flags and chop and change to meet your requirements.
 
 If you or your team where tasked with migrating to Entity Framework and later managing future database schema migrations with a Code First approach, you can appreciate how this toolset could vastly reduce the time to accurately accomplish this unit of work.
 
